@@ -1,0 +1,1 @@
+# vercel-squad-de-python
