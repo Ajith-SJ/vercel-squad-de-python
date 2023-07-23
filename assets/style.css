@@ -1,0 +1,77 @@
+.logo {
+    height: 50px;
+    padding-right: 70px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.my-navbar {
+    background: linear-gradient(90deg, rgb(5, 85, 58) 0%, rgb(16, 180, 103) 100%) !important;
+    box-shadow: 0 0 10px #9ecaed, 0 0 5px #9ecaed;
+    color: white;
+    font-weight: bolder;
+}
+
+.my-navbar:hover {
+    box-shadow: 0 0 10px #9ecaed, 0 0 5px #9ecaed;
+}
+
+.nav-link {
+    float: right !important;
+    color: rgb(5, 5, 5);
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: lightgray;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.nav-link:not(.ml-auto) {
+    text-decoration: none;
+}
+
+.welcome-title {
+    text-align: center;
+    padding-top: 5%;
+    z-index: 2;
+    color: black;
+    /* Add any other styles you want for the 'Welcome Squad' heading here */
+}
+
+.top-section {
+    background-image: url("/assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    /* Adjust this to change the height of the section */
+}
+
+.content {
+    margin: auto;
+    max-width: 800px;
+    padding: 2em;
+    text-align: justify;
+    z-index: 2;
+}
+
+/* Media query for the top-section */
+@media screen and (max-width: 768px) {
+    .top-section {
+        height: 300px;
+        /* Reduce height for smaller screens */
+    }
+}
+
+/* Media query for the white-box */
+@media screen and (max-width: 768px) {
+    .white-box {
+        width: 250px;
+        /* Reduce width for smaller screens */
+        margin-top: 60px;
+        /* Adjust the margin for smaller screens */
+    }
+}
